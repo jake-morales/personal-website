@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project One | Jake Morales</title>
+    <link rel="stylesheet" href="/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item has-text-weight-bold" href="/">Jake Morales</a>
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="mainNavbar">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div id="mainNavbar" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item" href="/">
+              <span class="icon"><i class="fas fa-home"></i></span>
+              <span>Home</span>
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                <span class="icon"><i class="fas fa-code"></i></span>
+                <span>Projects</span>
+              </a>
+              <div class="navbar-dropdown">
+                <a class="navbar-item" href="/projects/project-1.html">
+                  <span class="icon"><i class="fas fa-tasks"></i></span>
+                  <span>Project One</span>
+                </a>
+                <a class="navbar-item" href="/projects/project-2.html">
+                  <span class="icon"><i class="fas fa-cloud-sun"></i></span>
+                  <span>Project Two</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero is-small is-primary">
+      <div class="hero-body">
+        <div class="container">
+          <p class="title">
+            <span class="icon mr-2"><i class="fas fa-tasks"></i></span>
+            Project One
+          </p>
+          <p class="subtitle">A task management app</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Screenshot -->
+    <section class="section pt-5 pb-0">
+      <div class="container">
+        <div class="project-screenshot">
+          <figure class="image is-16by9">
+            <img src="https://placehold.co/1200x675/667eea/ffffff?text=Project+One+Screenshot" alt="Project One screenshot">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Overview -->
+    <section class="section" id="overview">
+      <div class="container">
+        <h2 class="title is-3 section-heading">Overview</h2>
+        <div class="content">
+          <p>
+            This is a full-stack task management application designed to help teams organize their work
+            efficiently. It features real-time updates so that all team members see changes as they happen,
+            without needing to refresh the page.
+          </p>
+          <p>
+            The project was born out of frustration with existing tools that were either too complex or too
+            simple. The goal was to build something that strikes the right balance between power and usability.
+          </p>
+          <p>
+            Users can create projects, assign tasks, set deadlines, and track progress through a clean,
+            intuitive interface. The app supports drag-and-drop reordering and real-time notifications.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Details -->
+    <section class="section" id="details">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-half">
+            <h3 class="title is-4">Tech Stack</h3>
+            <div class="tags are-medium">
+              <span class="tag is-info"><i class="fab fa-react mr-1"></i> React</span>
+              <span class="tag is-info"><i class="fab fa-node-js mr-1"></i> Node.js</span>
+              <span class="tag is-info"><i class="fas fa-server mr-1"></i> Express</span>
+              <span class="tag is-info"><i class="fas fa-database mr-1"></i> PostgreSQL</span>
+              <span class="tag is-info"><i class="fas fa-plug mr-1"></i> Socket.io</span>
+              <span class="tag is-info"><i class="fab fa-docker mr-1"></i> Docker</span>
+            </div>
+          </div>
+          <div class="column is-half">
+            <h3 class="title is-4">Key Features</h3>
+            <div class="content">
+              <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fas fa-bolt has-text-warning"></i></span>Real-time collaboration with WebSocket connections</li>
+                <li><span class="fa-li"><i class="fas fa-arrows-alt has-text-info"></i></span>Drag-and-drop task reordering</li>
+                <li><span class="fa-li"><i class="fas fa-lock has-text-danger"></i></span>User authentication and role-based permissions</li>
+                <li><span class="fa-li"><i class="fas fa-envelope has-text-success"></i></span>Email notifications for task assignments and deadlines</li>
+                <li><span class="fa-li"><i class="fas fa-book has-text-primary"></i></span>REST API with comprehensive documentation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Links -->
+    <section class="section" id="links">
+      <div class="container">
+        <div class="buttons">
+          <a href="#" class="button is-dark is-medium">
+            <span class="icon"><i class="fab fa-github"></i></span>
+            <span>View on GitHub</span>
+          </a>
+          <a href="#" class="button is-primary is-medium">
+            <span class="icon"><i class="fas fa-external-link-alt"></i></span>
+            <span>Live Demo</span>
+          </a>
+          <a href="/" class="button is-light is-medium">
+            <span class="icon"><i class="fas fa-arrow-left"></i></span>
+            <span>Back to Home</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <div class="social-links mb-4">
+          <a href="https://github.com/jake-morales" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://linkedin.com/in/" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="mailto:placeholder@example.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+        <p>&copy; 2026 Jake Morales. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Navbar burger toggle -->
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const burgers = document.querySelectorAll('.navbar-burger');
+        burgers.forEach(el => {
+          el.addEventListener('click', () => {
+            const target = document.getElementById(el.dataset.target);
+            el.classList.toggle('is-active');
+            target.classList.toggle('is-active');
+          });
+        });
+      });
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "Portfolio website for Jake Morales (Software Engineer)",
+  "homepage": "https://github.com/jake-morales/personal-website#readme",
+  "bugs": {
+    "url": "https://github.com/jake-morales/personal-website/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jake-morales/personal-website.git"
+  },
+  "license": "ISC",
+  "author": "jake-morales",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "cp node_modules/bulma/css/bulma.min.css css/bulma.min.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bulma": "^1.0.4"
+  }
+}
